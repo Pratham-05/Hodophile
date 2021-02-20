@@ -1,0 +1,75 @@
+.carousel-item
+{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+.carousel-caption h5{
+  /* display: flex; */
+  font-size: 2vw;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  
+}
+.carousel-caption button{
+  /* display: flex; */
+  font-size: 1vw;
+ text-transform: uppercase;
+ background-color: #262626;
+ color: #fff;
+}
+.navbar-nav a{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-brand{
+  color: #262626;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 2px;
+  
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+  font-weight: bold;
+}
+.w-100{
+  height: 100vh;
+}
+
+
+@media only screen and (max-width: 767px){
+  display: flex;
+  .navbar-nav.ml-auto{
+    background: rgba(0,0,0,0);
+  }
+  .navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+    }
+    .carousel-item
+{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+.carousel-caption h5{
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption button{
+ text-transform: uppercase;
+ background-color: #262626;
+ color: #fff;
+}
+}
